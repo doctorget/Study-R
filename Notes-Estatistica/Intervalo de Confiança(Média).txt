@@ -1,0 +1,6 @@
+Intervalo de Confiança para a Média
+    Queremos estimar o salário médio de um cientista de dados
+    100 pesquisados(n)
+    intervalo de confiança
+    A média é de R$ 5.800,00
+    Valor de z* = 1,96

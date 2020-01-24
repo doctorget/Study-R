@@ -1,0 +1,37 @@
+Intervalos de Confiança
+    É possivel inferir caracteristicas de uma população a partir de uma amostra?
+
+    Porque?
+        Custo
+        Viabilidade
+        Etc..
+
+    Preço: erro padrão / nivel de confiança
+    Riscos: dados ruins, enviesamento
+
+    Como estamos utilizando amostra.. devemos esperar variação.
+    A primeira amostra pode variar com relação a segunda..
+    A segunda com relação a terceira etc..
+    Mas devemos poder "medir" o quanto pode ser esta variação
+
+    Intervalo de Confiança: O parâmetro mais ou menos a margem de erro estimada Exemplo: resultado 40 + ou - 5
+    Parâmetro: valor a ser estimado
+    Margem de erro: variabilidade, para mais ou para menos
+    Nivel de Confiança: de 80 a 99% 
+
+    NIVEL DE CONFIANÇA: Z*
+
+    Percentual de          Valor de Z*(valor a aplicar na formula)
+    Confiança           
+    80                      1,28
+    90                      1,64
+    95                      1,96
+    98                      2,33
+    99                      2,58
+
+
+    Tipos de Intervalos de Confiança
+
+        Intervalo para a média Exemplo:em media 58% das pessoas que compram carro contratam seguro
+        Intervalo de Confiança para a proporção Exemplo:uma parte da população que vai votar em determinado partido
+    

@@ -1,0 +1,11 @@
+Estatistica Paramétrica(Parametro/Padrão)
+    Requer que os dados estejam em conformidade com alguma distribuição
+    Ex: Distribuição Normal
+
+Estatistica Não Paramétrica
+    Quando os dados não estão em conformidade com alguma distribuição
+    Quando não se conhece a distribuição dos dados
+
+A Estatistica paramétrica oferece menos riscos
+    Exemplo: se os dados estão normalmente distribuidos um teste de hipótese parametrico tende a 
+    ser mais preciso do que um teste não paramétrico

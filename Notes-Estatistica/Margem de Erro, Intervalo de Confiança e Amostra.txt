@@ -1,0 +1,6 @@
+Troca entre Margem de erro, intervalo de confiança e Amostra
+    
+    Aumentando a margem de erro, é natural que as chances da minha amostra estarem dentro do intervalo,
+    por iso eu tenho um nivel de confiança maior 
+
+    Da mesma forma, aumentando o n, reduz a chance do efeito acaso, por isso minha margem de erro reduz

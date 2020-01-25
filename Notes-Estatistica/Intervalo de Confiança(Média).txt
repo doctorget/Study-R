@@ -1,6 +1,71 @@
 Intervalo de Confiança para a Média
     Queremos estimar o salário médio de um cientista de dados
     100 pesquisados(n)
-    intervalo de confiança
+    intervalo de confiança: 95%
     A média é de R$ 5.800,00
     Valor de z* = 1,96
+    O desvio padrão é de 1.100,00
+    Margem de erro: +- 215,60
+    O salario médio de um cientista de dados é entre 5584,40 4 
+    6.015,60 com um nivel de confiança de 95%
+
+    Formula = media +- Z * (desvio-padrão/raiz de (n))
+
+    5.800,00 +- 1,96 * (1100/ raiz de 100)
+    5.800,00 +- 1,96 * 110
+    5.800,00 +- 215,60
+    5.800,00 + 215,60 = 6.015,60
+    5.800,00 - 215,60 = 5.584,40
+
+    95% das vezes que for feito esse calculo chegara nesse Valor
+
+-----------------------------------------------------------------------
+
+Aumentando o nivel de confiança 
+    Queremos estimar o salário médio de um cientista de dados
+    100 pesquisados(n)
+    intervalo de confiança: 99%
+    A média é de R$ 5.800,00
+    Valor de z* = 2,58
+    O desvio padrão é de 1.100,00
+    Margem de erro: +- 283,80
+    O salario médio de um cientista de dados é entre 5516,20 4 
+    6.083,80 com um nivel de confiança de 99%
+
+    Formula = media +- Z * (desvio-padrão/raiz de (n))
+
+    5.800,00 +- 2,58 * (1100/ raiz de 100)
+    5.800,00 +- 2,58 * 110
+    5.800,00 +- 283,80
+    5.800,00 + 283,80 = 6.083,60
+    5.800,00 - 283,80 = 5.516,20
+
+    99% das vezes que for feito esse calculo chegara nesse Valor
+
+-----------------------------------------------------------------------
+
+Aumentando o n
+    Queremos estimar o salário médio de um cientista de dados
+    1000 pesquisados(n)
+    intervalo de confiança: 95%
+    A média é de R$ 5.800,00
+    Valor de z* = 1,96
+    O desvio padrão é de 1.100,00
+    Margem de erro: +- 68,18
+    O salario médio de um cientista de dados é entre 5.731,82
+    5.868,18 com um nivel de confiança de 95%
+
+    Formula = media +- Z * (desvio-padrão/raiz de (n))
+
+    5.800,00 +- 2,58 * (1100/ raiz de 1000)
+    5.800,00 +- 2,58 * 1100
+    5.800,00 +- 68,18
+    5.800,00 + 68,18 = 5.868,18
+    5.800,00 - 68,18 = 5.731,82
+
+    95% das vezes que for feito esse calculo chegara nesse Valor
+
+    Aumentando o numeros de pesquisados consequentemente reduziu a margem de erro 
+    e reduziu 3 vezes de 215,60 com 100 pessoas para 68,18 para 1000
+    
+

@@ -1,0 +1,25 @@
+Intervalo de Confiança para a proporção 
+
+    Queremos estimar a proporção de eleitores que pretendem 
+    votar em Maria para prefeito 
+
+    1000 pesquisados (n)
+
+    Intervalo de confiança: 95%
+
+    650 Responde Maria p = 650/1000 = 0,65
+    330 responde João p = 330/1000 = 0,33
+
+    20 Não sabe /Nenhum. p - 20/1000 = 0,02
+
+    Valor de z*= 1,96
+
+    Formula: p +- z* Raiz quadrada de(p(1-p/n))
+
+    p +- 1,96* raiz quadrada de 0,65(1 - 0,65)/1000 
+
+    p +- 0,029
+
+    p +- 0,03 =  3%
+
+    Entre 62 e 68% dos entrevistados pretendem votar em Maria, com um nivel de confiança de 95%

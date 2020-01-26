@@ -8,6 +8,54 @@ Teste de Hipotese
     Amostras estão sujeitas a variação 
 
     Se no caso pesquisarmos usando toda a população nesse caso deixa de ser um teste de Hipotese
-    pois não estamos mais trabalhando com amostras exemplo pesquisa com todos 200mi de brasileiros
+    pois não estamos mais trabalhando com amostras exemplo pesquisa com todos 200mi de brasileiros 
+     
+    Encontrar diferença não é tudo, é preciso saber se esta diferença é estatisticamente significante
 
-    Encontrar diferença não é tudo, é preciso saber se esta diferença é estatisticamente significante   
+    H0 = Hipotese nula: alegação que se quer testar Ex: 56% dos brasileiros não gostam de estatistica
+
+    presume-se que H0 é verdadeira , a não ser que existam evidenciaspara provar que não
+
+    exemplo: H0: = 100
+
+    Ha = Hipotese alternativa
+
+    Exemplos: Ha != 100, Ha > 100, Ha < 100
+
+    score padrão: erros que seus dados estão abaixo ou acima da média
+
+    A versão padronizada de sua estatistica é chamada de "estatistica de teste"
+
+    Olha na versão padronizada de Z. Se sua estatistica de teste estiver proxima de zero ou num 
+    intervalo onde os resultados devem estar então não se pode rejeitar H0
+    Se estiver proximo a cauda, entãopodemos rejeitar H0
+
+    Alfa e valor-p
+    Niveis de (alfa):
+    0,05 ou
+    0,01 
+
+    Interpretar valor-p
+    valor - P >= alfa não rejeita a H0
+    valor - P <= alfa: rejeita a H0
+    valor - P muito proximo: ?? resultado inconclusivo mas depende de interpretação
+
+    Etapas
+
+    1 - Definir o tamanho da sua amostra
+    2 - Coletar dados
+    3 - Calcular a média e o desvio padrão
+    4 - Definir as duas hipóteses: H0 e Ha
+    5 - Definir seu alfa
+    6 - Padronizar seus dados gerando a estatisca de teste 
+    7 - Encontrar o valor-p na tabela Z
+    8 - Comparar com seu alfa
+    9 - Emitir seu veredito
+
+    Formulas
+
+    Média:
+    Z = (média - H0 / desvio-padrão)/ raiz quadrada de (quantidade de n)
+
+    Proporção:
+    Z = (p)

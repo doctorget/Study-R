@@ -1,0 +1,13 @@
+Teste de Hipotese 
+
+    Confirmar uma premissa usando uma amostra
+
+    Esta premissa usa um parametro por exemplo:
+        56 % dos brasileiros não gostam de estatistica 
+
+    Amostras estão sujeitas a variação 
+
+    Se no caso pesquisarmos usando toda a população nesse caso deixa de ser um teste de Hipotese
+    pois não estamos mais trabalhando com amostras exemplo pesquisa com todos 200mi de brasileiros
+
+    Encontrar diferença não é tudo, é preciso saber se esta diferença é estatisticamente significante   

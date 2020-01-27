@@ -39,21 +39,23 @@ plot(modelo$fitted.values, cars$dist)# aqui comparamos os valores ajustados com 
 
 mtcars
 
+colnames(mtcars) # printa os nomes da coluna da base
+
 dim(mtcars)
 
-cor(mtcars[1:4])
-modelo = lm(mpg ~ disp, data=mtcars)
+cor(mtcars[1:4]) #buscando correlação entre os baias
+modelo = lm(mpg ~ disp, data=mtcars) # Regressão simples
 modelo
 
-summary(modelo)$r.squared 
-summary(modelo)$adj.r.squared
+summary(modelo)$r.squared # Aqui ela printa o coeficiente de correlação
+summary(modelo)$adj.r.squared # Coeficiente de coeficiente ajustado
 
 plot(mpg ~ disp, data=mtcars)
 abline(modelo)
 
 predict(modelo,data.frame(disp = 200))
 
-modelo = lm(mpg ~ disp +  hp + cyl, data=mtcars)
+modelo = lm(mpg ~ disp +  hp + cyl, data=mtcars) # modelo de regressão linear multipla
 
 summary(modelo)$r.squared 
 

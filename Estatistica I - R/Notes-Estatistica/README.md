@@ -1,22 +1,13 @@
 # Study-R
-## Distribuições
-## Probabilidade
-## Intervalo de Confiança
+## Teste Hipótese
+## Distribuição T-student
 
-### Distribuição Normal
-![](img/dist-normal.png)
+### Teste Hipótese
+![](../img/teste-hipotese.png)
 
-### Formula Probabilidade, tabela z
-![](img/prob-tablez.png)
+![](../img/teste-hipotese2.png)
 
-### Intervalo de Confiança
-![](img/intervalo-confiança.png)
+![](../img/teste-hipotese3.png)
 
-### Nivel Confiança
-![](img/nivel-confiança.png)
+![](../img/teste-hipotesepap.png)
 
-### Intervalo de Confiança(Média)
-![](img/calc-confiança.png)
-
-### Intervalo de Confiança(Proporção)
-![](img/prop-confiança.png)

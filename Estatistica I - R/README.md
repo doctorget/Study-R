@@ -5,4 +5,4 @@
 ![](img/dist-normal.png)
 
 ### Formula Probabilidade, tabela z
-![](prob-tablez.png)
+![](img/prob-tablez.png)

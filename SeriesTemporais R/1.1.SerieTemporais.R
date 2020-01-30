@@ -26,21 +26,22 @@ dec$seasonal # mostra somente os elementos sazionais
 plot(dec$trend) #plota um grafico só com as tendencias  
 plot(dec) # plota um grafico com todos os elementos 
 
-mean(AirPassengers)
+mean(AirPassengers) # media dos valores
 window(AirPassengers,start=c(1997,12), end=c(1997,12))
-mean(window(AirPassengers,start=c(1997,1), end=c(1997,12)))
+mean(window(AirPassengers,start=c(1997,1), end=c(1997,12))) # média dos valores do ultimo ano
 
 install.packages(“forecast”)
 library(forecast)
 
-mediamovel = ma(AirPassengers,order=12)
+mediamovel = ma(AirPassengers,order=12) # vai calcular suavizando a linha do grafico calculando a média de cada mês
 
-previsao = forecast(mediamovela, h=12)
+previsao = forecast(mediamovel, h=12) # faz uma previsão futura
 
-arima = auto.arima(AirPassengers)
+arima = auto.arima(AirPassengers) # aqui elle faz uma copia da base e aplica o arima uma previsão mais sofisticada
 arima
 
-previsao = forecast(arima, h=5)
+previsao = forecast(arima, h=5) # aqui ele preve a base com arima 
+
 plot(previsão)
 
 

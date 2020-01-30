@@ -1,11 +1,15 @@
-#Formacao Cientista de Dados - Fernando Amaral
+#Formacao Cientista de Dados
 
 boxplot(iris$Sepal.Width)
-boxplot.stats(iris$Sepal.Width)$out
 
-install.packages('outliers')
-library(outliers)
+boxplot(iris$Sepal.Width, outline = F) # plotando sem outlier
 
-outlier(iris$Sepal.Width) 
+boxplot.stats(iris$Sepal.Width)$out # aqui ele vai printar somente os outliers
 
-outlier(iris$Sepal.Width, opposite=T)
+install.packages('outliers') # pacote só com analise e remoção de outliers
+
+library(outliers) # importando o pacote
+
+outlier(iris$Sepal.Width) # Trás os ou o outlier/s superiores
+
+outlier(iris$Sepal.Width, opposite=T) # Trás os inferiores

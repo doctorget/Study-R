@@ -9,9 +9,9 @@ amostra = sample(2,1000,replace=T, prob=c(0.7,0.3))
 creditotreino = credito[amostra==1,]
 creditoteste = creditos[amostra==2,]
 
-floresta = randomForest(class ~ .,data=creditotreino, ntree=100,importance=T)
+floresta = randomForest(class ~ .,data=creditotreino, ntree=100,importance=T)#Treinando modelo, ntree=numero de arvores que serão induzidas
 
-varImpPlot(floresta)
+varImpPlot(floresta) # plota dois graficos, o primeiro é aImportancia de cada atributo pro  modelo e o segundo usa o calculo de gini 
 
 previsao = predict(floresta,creditoteste)
 confusao = table(previsao,creditoteste$class)

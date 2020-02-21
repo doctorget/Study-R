@@ -1,4 +1,4 @@
-#Formacao Cientista de Dados - Fernando Amaral
+#Formacao Cientista de Dados
 
 install.packages("cluster", dependencies=T)
 library(cluster)
@@ -8,4 +8,4 @@ cluster
 
 plot(cluster)
  
-table(iris$Species,cluster$clustering)
+table(iris$Species,cluster$clustering) # tirando a prova real do agrupamento

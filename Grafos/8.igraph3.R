@@ -1,4 +1,4 @@
-#Formacao Cientista de Dados - Fernando Amaral
+#Formacao Cientista de Dados
 
 grafo8 = read_graph(file.choose(), format = c("graphml"))
 

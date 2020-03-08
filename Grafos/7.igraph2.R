@@ -1,4 +1,4 @@
-#Formacao Cientista de Dados - Fernando Amaral
+#Formacao Cientista de Dados
 
 plot(grafo7, vertex.size=vertex_attr(grafo7)$Peso)
 

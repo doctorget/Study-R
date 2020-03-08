@@ -1,4 +1,4 @@
-#Formacao Cientista de Dados - Fernando Amaral
+#Formacao Cientista de Dados
 
 comun = cluster_edge_betweenness(grafo8)
 comun

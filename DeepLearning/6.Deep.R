@@ -1,4 +1,4 @@
-#Formacao Cientista de Dados - Fernando Amaral
+#Formacao Cientista de Dados
 
 #uso interno
 options(warn=-1)

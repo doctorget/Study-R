@@ -8,11 +8,11 @@ inspect(corpus[[2]])
 as.character(corpus[[2]]) 
 as.character(corpus[[2]])[1] 
 
-corpus = tm_map(corpus, removeWords, stopwords("english"))
-corpus = tm_map(corpus , stripWhitespace)
+corpus = tm_map(corpus, removeWords, stopwords("english")) # removendo as stopwords
+corpus = tm_map(corpus , stripWhitespace) # remove excesso de espaços em branco
 
-corpus  <- tm_map(corpus , removePunctuation)
-corpus  <- tm_map(corpus , removeNumbers)
+corpus  <- tm_map(corpus , removePunctuation) 
+corpus  <- tm_map(corpus , removeNumbers) # remove numeros
 
 corpus = tm_map(corpus, stemDocument,language = "english")
 corpus = tm_map(corpus, stemCompletion, dictionary=corpus)
